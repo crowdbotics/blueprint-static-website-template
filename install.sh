@@ -15,5 +15,5 @@ source blueprint-lib/init.sh
 # BASE_PATH is the full path to the project root
 # APP_NAME is the name of the Django app that will be modified
 ###
-rm -rf $BASE_PATH/*
+
 rsync -avh --progress blueprint-lib/content/* $BASE_PATH/
