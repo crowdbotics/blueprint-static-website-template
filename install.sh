@@ -17,4 +17,4 @@ source blueprint-lib/init.sh
 ###
 rm -rf $BASE_PATH/*
 
-cp -r blueprint-lib/content/* $BASE_PATH/
+cp -rf blueprint-lib/content/* $BASE_PATH/
