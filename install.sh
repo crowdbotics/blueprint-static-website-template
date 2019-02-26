@@ -16,6 +16,5 @@ source blueprint-lib/init.sh
 # APP_NAME is the name of the Django app that will be modified
 ##
 rm -rf $BASE_PATH/*
-rm -rf $BASE_PATH/.*
 
-cp blueprint-lib/content/* $BASE_PATH/
+cp -r blueprint-lib/content/* $BASE_PATH/
