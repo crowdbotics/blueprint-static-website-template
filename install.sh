@@ -16,4 +16,4 @@ source blueprint-lib/init.sh
 # APP_NAME is the name of the Django app that will be modified
 ###
 
-rsync -avh --progress blueprint-lib/content/* $BASE_PATH/
+rsync -avh --progress content/* $BASE_PATH/
