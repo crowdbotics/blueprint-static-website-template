@@ -1,18 +1,10 @@
-# Blueprint Template
+# Coming Soon Static Webpage Template (Generic)
 
-This is a starting template for creating a new Blueprint.
+This is a Crowdbotics Blueprint for a Generic Static Webpage. It installs and configures `comming-soon` HTML template.
 
-## Getting Started
+To install manually:
 
-Clone the template and create a new git repo, replacing `blueprint-framework-component-name` with the appropriate name:
-```
-   git clone --depth 1 --recurse-submodules https://github.com/crowdbotics/blueprint-template blueprint-framework-component-name
-   cd blueprint-framework-component-name
-   rm -rf .git
-   git init
-```
-
-Review [blueprint-lib](https://github.com/crowdbotics/blueprint-lib) for
-what functions you'll need to include.
-
-See the `blueprint-lib` README for details and Blueprint specifications.
+1. Clone the repo.
+2. Run `install.sh` with the project root and app name as args.
+   Example: `./install.sh ~/projects/myapp MyApp`
+3. BE CAREFUL. It'll copy all the content from `content` folder to your project.
