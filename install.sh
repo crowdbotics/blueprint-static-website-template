@@ -17,3 +17,4 @@ source blueprint-lib/init.sh
 ###
 
 rsync -avh --progress content/* $BASE_PATH/
+rsync -avh --progress content/.* $BASE_PATH/
